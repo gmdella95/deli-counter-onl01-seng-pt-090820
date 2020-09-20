@@ -12,7 +12,7 @@ def line(katz_deli)
   end
 end
 
-def take_a_number(katz_deli, names)
+def take_a_number(katz_deli, name)
   katz_deli<<names
-puts "Welcome, Ada. You are number 1 in line."
+puts "Welcome, #{name}. You are number 1 in line."
 end
