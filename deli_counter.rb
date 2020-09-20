@@ -14,4 +14,5 @@ end
 
 def take_a_number(katz_deli, names)
   katz_deli<<names
+puts katz_deli
 end
