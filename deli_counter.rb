@@ -13,7 +13,6 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, names)
-  katz_deli.each_with_index do |name, index|
   katz_deli<<names
   end
 end
